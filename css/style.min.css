@@ -879,6 +879,10 @@ header {
     margin-top: 5px;
     border-radius: 2px;
   }
+  .subheader .btn:hover {
+    background-image: -webkit-gradient(linear, left bottom, left top, from(#1eacc7), to(#4ce2ff));
+    background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+  }
   nav {
     height: 30px;
   }
@@ -910,6 +914,10 @@ header {
     height: 50px;
     border-radius: 2px;
     margin-top: 72px;
+  }
+  .promo_btn:hover {
+    background-image: -webkit-gradient(linear, left bottom, left top, from(#1eacc7), to(#4ce2ff));
+    background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
   }
   .advantages, .mobile {
     padding: 22px 0 43px 0;
